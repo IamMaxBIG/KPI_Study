@@ -1,0 +1,157 @@
+body {
+	background-image: url(images/content.png);
+	background-repeat: no-repeat;
+	background-size: 125%;
+}
+
+#container {
+	background-image: url(images/contentplus.png);
+	background-repeat: no-repeat;
+	background-size: 47.5%;
+	background-position: -3% 95%;
+	width: 100%;
+	height: 100%;
+}
+
+#header {
+	background-color: #FFFF00;
+	background-image: url(images/header.png);
+	background-repeat: no-repeat;
+	background-size: 10%;
+	background-position: 70% 0%;
+	float: left;
+	width: 48.1%;
+	height: 14%;
+	border: 1.5px solid #FF00BF;
+}
+
+#header h1 a {
+	padding-left: 25%;
+	text-decoration: none;
+	color: black;
+	font-size: 2.66em;
+	line-height: 75%;
+}
+
+#header h2, h3 {
+	text-align: center;
+	color: #585858;
+	font-size: 1.7em;
+	font-style: italic;
+	line-height: 10%;
+}
+
+#header h1 a:hover, #header h1 a.active {
+	color: white;
+}
+
+#nav {
+	background-color: #FFFF00;
+	background-image: url(images/nav.png);
+	background-repeat: no-repeat;
+	background-size: 60%;
+	background-position: 100% 0%;
+	float: right;
+	width: 51.7%;
+	height: 20%;
+}
+
+#nav ul {
+	text-align: left;
+	list-style: none;
+	width: 45%;
+}
+
+#nav ul li a {
+	line-height: 120%;
+	color: #8A0868;
+	font-size: 1.8em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#nav ul li a:hover, #nav ul li a.active {
+	color: #088A08;
+}
+
+#sidebar {
+	background-image: url(images/sidebar.png);
+	background-size: 65%;
+	background-position: center;
+	float: left;
+	width: 38%;
+	height: 69.5%;
+	border: 2px solid #FF8000;
+}
+
+#sidebar h1 {
+	text-align: center;
+	color: red;
+	font-weight: bold;
+	font-size: 2.55em;
+	line-height: 10%;
+}	
+
+#sidebar h2 {
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	font-size: 1.51em;
+}
+
+#sidebar ul {
+	text-align: left;
+	list-style: none;
+	width: 100%;
+}
+
+#sidebar ul li a {
+	font-weight: bold;
+	line-height: 100%;
+	text-align: left;
+	color: #000000;
+	font-size: 1.7em;
+	text-decoration: none;
+}
+
+#sidebar ul li a:hover, #nav ul li a.active {
+	color: #DF0101;
+}
+
+#content {
+	background-image: url(images/content.png);
+	background-repeat: no-repeat;
+	background-size: 130%;
+	float: right;
+	width: 61.7%;
+	height: 69.5%;
+}
+
+.style1
+{
+	background: blue;
+}
+
+#content h1 {
+	padding-left: 0.5%;
+	text-align: left;
+	color: black;
+	font-size: 1.5em;
+	font-style: italic;
+	text-decoration: none;
+}
+
+#footer {
+	font-size: 1.35em;
+	text-align: center;
+	color: black;
+	width: 99.8%;
+	height: 15%;
+	clear: both;
+	background-color: #FF8000;
+	background-image: url(images/header.png);
+	background-repeat: no-repeat;
+	background-size: 1.2%;
+	background-position: 65% 0%;
+	border: 2px solid red;
+}
