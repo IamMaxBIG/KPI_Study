@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"> 
+        <title>Laba №3</title>
+        <link rel="stylesheet" href="Laba3.css" type="text/css">
+    </head>
+    <body>
+    <div class="container">
+        <div class="item third"></div>
+        <div class="item third bg-right">
+            <div class="nav sprite" id="refresh"></div>
+        </div>
+        <div class="item zero center">
+            <p>SCHEDULER OF CASES</p>
+        </div>
+        <div class="item third bg-left">
+            <div class="nav sprite" id="add"></div>
+        </div>
+        <div class="item third"></div>
+    </div>
+    <div class="container">
+        <div class="item third center">
+            <div class="nav sprite" id="left"></div>
+        </div>
+        <div id="prev" class="item second">
+            <p>Title: First</p>
+			<p>Description: No info</p>
+            <p>Time: No info</p>
+        </div>
+        <div id="curr" class="item first bg-right">
+            <input id="item-id" type="hidden" v-bind:value="id">
+            Title: <input class="prop" id="item-title" type="text"  v-bind:value="title" maxlength=20 width=80%><br>
+			<textarea class="prop" id="item-description" rows="4"  v-model="description" placeholder="add description" maxlength=100></textarea><br><br>
+            Time: <input class="prop" id="item-time" type="time" v-bind:value="time"><br>
+            <center>
+                <div class="edd sprite" id="del"></div>
+                <div class="edd sprite" id="save"></div>
+            </center>
+            </form>
+        </div>
+        <div id="next" class="item second">
+            <p>Title: Last</p>
+			<p>Description: No info</p>
+            <p>Time: No info</p>
+        </div>
+        <div class="item third center">
+            <div class="nav sprite" id="right"></div>
+        </div>
+    </div>
+    </body>
+    <script src="vue.js"></script>
+    <script src="Laba3.js"></script>
+</html>

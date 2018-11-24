@@ -1,0 +1,15 @@
+<Laba3>
+	{% for task in Laba3 %}
+	<task>
+		<title>
+			{{task.title}}
+		</title>
+		<description>
+			{{task.description}}
+		</description>
+		<time>
+			{{task.time}}
+		</time>
+	</task>
+	{% endfor %}
+</Laba3>
