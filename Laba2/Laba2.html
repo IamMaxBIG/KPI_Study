@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Laba2_Calculator</title>
+  <meta http-equiv="Content-Language" content="uk" />
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/font-awesome.css" rel="stylesheet">
+  <link href="Laba2.css" rel="stylesheet">
+  <script type="text/javascript" src="Laba2.js"></script>
+ </head>
+ 
+ <body>
+	<div class = "Laba2">
+		<div class = "Calculator">
+			<form name = "Display">
+				<input class = "display" name = "display">
+			</form>
+			<table>
+				<tr>
+					<td><tt><input class = "button" type = "button" value = "C"onclick = "Click_Cout_C()"></tt></td>
+					<td><tt><input class = "button" type = "button" value = "CE"onclick = "Click_Cout_CE()"></tt></td>
+					<td colspan = 2><tt><input class = "button" style = "width: 305px" type = "button" value = "<--"onclick = "Click_Cout_Del()"></tt></td>
+				</tr>
+				
+				<tr>
+					<td><i><input class = "button" type = "button" value = "%"onclick = "Click_Cout_Per('%')"></i></td>
+					<td><i><input class = "button" type = "button" value = "√(x)"onclick = "Click_Cout_Sqrt('**0.5')"></i></td>
+					<td><i><input class = "button" type = "button" value = "(X)^y"onclick = "Click_Cout_Pow('**')"></i></td>
+					<td><input class = "button" type  = "button" value = "÷"onclick = "Click_Cout_Div('/')"></td>
+				</tr>
+					
+				<tr>
+					<td><b><input class = "button" type = "button" value = "7"onclick = "Click_Cout_Num(7)"></b></td>
+					<td><b><input class = "button" type = "button" value = "8"onclick = "Click_Cout_Num(8)"></b></td>
+					<td><b><input class = "button" type = "button" value = "9"onclick = "Click_Cout_Num(9)"></b></td>
+					<td><input class = "button" type = "button" value = "×"onclick = "Click_Cout_Mult('*')"></td>
+				</tr>
+					
+				<tr>
+					<td><b><input class = "button" type = "button" value = "4"onclick = "Click_Cout_Num(4)"></b></td>
+					<td><b><input class = "button" type = "button" value = "5"onclick = "Click_Cout_Num(5)"></b></td>
+					<td><b><input class = "button" type = "button" value = "6"onclick = "Click_Cout_Num(6)"></b></td>
+					<td><input class = "button" type = "button" value = "-"onclick = "Click_Cout_Minus('-')"></td>
+				</tr>
+				
+				<tr>
+					<td><b><input class = "button" type = "button" value = "1"onclick = "Click_Cout_Num(1)"></b></td>
+					<td><b><input class = "button" type = "button" value = "2"onclick = "Click_Cout_Num(2)"></b></td>
+					<td><b><input class = "button" type = "button" value = "3"onclick = "Click_Cout_Num(3)"></b></td>
+					<td><input class = "button" type = "button" value = "+"onclick = "Click_Cout_Plus('+')"></td>
+				</tr>
+				
+				<tr>
+					<td><b><input class = "button" type = "button" value = "."onclick = "Click_Cout_T('.')"></b></td>
+					<td><b><input class = "button" type = "button" value = "0"onclick = "Click_Cout_Num(0)"></b></td>
+					<td colspan = 2><input class = "button" style = "width: 305px" type = "button" value = "="onclick = "Click_Cout_Result('=')"></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+ </body>
+</html>

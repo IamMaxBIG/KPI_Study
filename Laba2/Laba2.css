@@ -1,0 +1,38 @@
+body {
+	height: 738px;
+	background-image: url(images/bg.png);
+	background-size: 30%;
+	background-repeat: repeat;
+}
+
+.Calculator {
+	width: 627.5px;
+	height: 723.5px;
+	margin-left: 450px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border: 5px solid black;
+	background-color: #FF8C00;
+}
+
+.display {
+	width: 618px;
+	height: 70px;
+	font-size: 60px;
+	text-align: right;
+	margin-bottom: 20px;
+	background-color: #DCDCDC;
+	color: black;
+	border: 5px solid #696969;
+}
+
+.button {
+	width: 150px;
+	height: 100px;
+	font-size: 55px;
+	text-align: center;
+	color: black;
+	margin: 2px;
+	cursor: pointer;
+}
+
