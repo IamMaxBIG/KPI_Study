@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Monoton|Permanent+Marker');
+
+body {
+	background-image: url(images/body.png);
+	background-size: 70%;
+	margin-top:120px;
+	background-position: center;
+}
+
+.container {
+	background-image: url(images/container.png);
+	background-repeat: no-repeat;
+	background-size: 38%;
+	background-position: -10% 94.5%;
+}
+
+.navbar-header {
+	height: 120px;
+	width: 700px;
+	background-image: url(images/nav1.png);
+	background-repeat: no-repeat;
+	background-size: 13%;
+}
+.style1
+{
+	background: blue;
+}
+.navbar-header h1 a{
+	padding-left:85px;
+	text-align: center;
+	padding-top: 0%;
+	font-style: italic;
+	font-family: "Permanent Marker";
+}
+
+.navbar-header h1 span {
+	font-size: 50px;
+	font-family: "Monoton";
+}
+
+.navbar-inverse .navbar-nav li a span {
+	color: #FFD700;
+}
+
+.navbar-inverse .navbar-nav li a {
+	padding-top: 50px;
+	font-size: 19px;
+}
+
+.navbar-inverse .navbar-nav ul li a span {
+	color: #C71585;
+}
+
+.navbar-inverse .navbar-nav ul li a {
+	padding-top: 0px;
+	font-size: 15px;
+}
+
+.sidebar .row {
+	margin-left: -200px;
+	margin-right: -180px; 
+}
+
+.sidebar .row .col-md-5 {
+	border: 5px solid orange;
+}
+
+.sidebar .row .col-md-5 h1 span {
+	color: #DF0101;
+	font-family: "Indie Flower";
+}
+
+.sidebar .row .col-md-5 h2 {
+	color: #000000;
+	font-family: "Indie Flower";
+}
+
+.sidebar .row .col-md-5 ul{
+	list-style: none;
+	text-align: left;
+}
+
+.sidebar .row .col-md-5 ul li a {
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+	font-size: 1.8em;
+	text-decoration: none;
+	font-family: "Indie Flower";
+}
+
+.sidebar .row .col-md-5 ul li a:hover, .sibenar .row .col-md-5 ul li a.active {
+	color: #DF0101;
+}
+
+.img {
+	transition: all 0.2s ease;
+}
+
+.img:hover {
+	transform: rotate(-15deg);
+}
+
+.col-md-7 h1 {
+	font-family: "Indie Flower";
+	color: #000000;
+	font-size: 3.5em;
+}
+
+.col-md-7 h2 {
+	font-family: "Times New Roman";
+	color: #000000;
+	font-size: 2em;
+	font-style: italic;
+}
+
+.footer .raw .col-md-12 {
+	font-size: 1.8em;
+	color: #DF0101;
+	font-family: "Permanent Marker"
+}
+
